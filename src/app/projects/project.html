@@ -1,0 +1,31 @@
+<div class="project">
+    <h3 class="heading">Projects</h3>
+    <hr>
+    <div class="row">
+
+        <div *ngFor="let project of projects" class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 well">
+
+            <div class="col-lg-3 col-md-4 col-sm-3 ">
+                <img [src]="project.icon" class="img-responsive img-thumbnail ">
+            </div>
+            <h3>
+                <a [href]="project.titlehref">{{project.title}}</a><small>{{project.subtitle}}</small>
+            </h3>
+            <hr>
+            <p>{{project.description}}</p>
+            <h5><b>Technologies: </b>{{project.technologies}}</h5>
+            <div class="box">
+                <span *ngIf="project.giturl" class="fa-stack fa-lg">
+                        <a [href]="project.giturl" target="_blank">
+                            <i class="fa fa-github fa-stack-1x"></i>
+                        </a>
+                    </span>
+                <span *ngIf="project.giturl" class="fa-stack fa-lg">
+                        <a [href]="project.screenshoturl" target="_blank">
+                            <i class="fa fa-picture-o fa-stack-1x   "></i>
+                        </a>
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>

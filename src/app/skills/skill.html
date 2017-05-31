@@ -1,0 +1,28 @@
+<div class="skills">
+    <h3 class="heading">Skills</h3>
+    <hr>
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+        <h3 class="heading">Programming Languages</h3>
+        <hr>
+        <img *ngFor="let obj of programming" [src]="obj.path" class="col-lg-2 skillImages">
+    </div>
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 ">
+        <h3 class="heading">Other</h3>
+        <hr>
+        <img *ngFor="let obj of other" [src]="obj.path" class="col-lg-2 skillImages">
+    </div>
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 " style="margin-bottom: 20px">
+        <h3 class="heading">Certifications</h3>
+        <hr>
+        <img *ngFor="let obj of certs" [src]="obj.path" title="{{obj.title}}" class="col-lg-2 ">
+        
+        <!--<img src="./assets/cad.png" class="col-lg-2" title="AutoCad">-->
+    </div>
+    <!--<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 " style="margin-bottom: 20px">
+        <h3 class="heading">Operating Systems</h3>
+        <hr>
+        <img src="./assets/ubuntu.png" class="col-lg-2 ">
+        <img src="./assets/redhat.png" class="col-lg-2">
+        <img src="./assets/windows.png" class="col-lg-2">
+    </div>-->
+</div>
