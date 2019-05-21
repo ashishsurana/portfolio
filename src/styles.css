@@ -9,10 +9,10 @@ h3 ,h4,  li, .navbar {
 }
 
 .profilepic{
-	max-width: 100%;
+	max-width: 75%;
 	display:block;
     margin:auto;
-    padding: 10px;
+    padding: 5px;
 }
 .col-md-5{
 	margin-bottom: 8px;

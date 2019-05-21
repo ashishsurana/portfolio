@@ -14,20 +14,23 @@ export class ContactComponent  {
       class : "fa-linkedin",
       url : "https://in.linkedin.com/in/ashishsurana1"
     },{
-      class : "fa-skype",
-      url : "ashish.surana1"
-    },{
+    //   class : "fa-skype",
+    //   url : "ashish.surana1"
+    // },{
       class : "fa-twitter",
-      url : "htp://twitter.com/ashishsurana1"
+      url : "https://twitter.com/ashishsurana1"
     },{
-      class : "fa-facebook",
-      url : "htp://facebook.com/ashish.surana1"
-    },{
+    //   class : "fa-facebook",
+    //   url : "https://facebook.com/ashish.surana1"
+    // },{
       class : "fa-stack-overflow ",
       url : "http://stackoverflow.com/users/3950481/ashish-surana"
     },{
-      class : "fa-instagram",
-      url : "https://instagram.com/ashishsurana1/"
+    //   class : "fa-instagram",
+    //   url : "https://instagram.com/ashishsurana1/"
+    // },{
+      class : "fa-envelope-o",
+      url : "mailto:ashishsurana.in@gmail.com"
     }
     ]
 
