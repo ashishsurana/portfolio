@@ -49,13 +49,6 @@ h3 ,h4,  li, .navbar {
 	text-align: left;
 }
 
-/*@font-face {
-  font-family: "Kimberley";
-  src: local('./fonts/MYRIADPRO-BOLD.OTF'),
-   url('fonts/MYRIADPRO-BOLD.OTF') format("truetype");
-  font-weight: bold ;
-}*/
-
 .navbar {
 	font-size: 16px;
  	font-family: "Kimberley", sans-serif;
@@ -63,10 +56,6 @@ h3 ,h4,  li, .navbar {
     font-weight: bold;
 } 
 
-/*@font-face {
-  font-family: "Kimberle";
-  src: url(./fonts/Md_Gothic11.ttf) format("truetype");
-}*/
 .heading{
 	letter-spacing: 2px;
 	font-size: 20px;
