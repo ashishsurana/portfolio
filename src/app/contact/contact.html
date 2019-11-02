@@ -4,14 +4,14 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 well">
                     <h4><i class="fa fa-phone fa-1x"></i> : (+91) 9784-878727</h4>
-                    <h4><i class="fa fa-envelope fa-1x"></i> : ashishsurana.in@gmail.com </h4>
+                    <h4><i class="fa fa-envelope fa-1x"></i> : <a href="mailto:ashishsurana.in@gmail.com">ashishsurana.in@gmail.com</a> </h4>
                     <hr>
                     <div style="text-align:center;">
                         <span *ngFor="let contact of contacts" class="fa-stack fa-lg">
                             <a [href]="contact.url" target="_blank">
                                 <i class="fa fa-stack-1x" [ngClass]="contact.class"></i>
                             </a>
-						</span>
+                        </span>
                     </div>
                 </div>
             </div>

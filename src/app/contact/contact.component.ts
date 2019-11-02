@@ -25,12 +25,15 @@ export class ContactComponent  {
     // },{
       class : "fa-stack-overflow ",
       url : "http://stackoverflow.com/users/3950481/ashish-surana"
-    },{
+    // },{
     //   class : "fa-instagram",
     //   url : "https://instagram.com/ashishsurana1/"
     // },{
-      class : "fa-envelope-o",
-      url : "mailto:ashishsurana.in@gmail.com"
+    //   class : "fa-envelope-o",
+    //   url : "mailto:ashishsurana.in@gmail.com"
+    // }, {
+    //   class : "fa-dev",
+    //   url : "https://dev.to/ashishsurana"
     }
     ]
 
